@@ -1,6 +1,6 @@
-const { exec } = require('child_process');
-const getChangedPackages = require('./get-changed-packages');
-const getAllPackages = require('./get-all-packages');
+import { exec } from 'child_process';
+import getChangedPackages from './get-changed-packages.js';
+import getAllPackages from './get-all-packages.js';
 
 const getPackages =
   //getAllPackages;

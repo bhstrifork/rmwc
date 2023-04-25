@@ -3,8 +3,8 @@
  * Lerna only uses its own version
  * ... this is a dumb script that keeps the two in sync
  */
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 const root = path.resolve(__dirname, '../');
 

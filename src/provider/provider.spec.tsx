@@ -1,5 +1,6 @@
 import React from 'react';
 import { render } from '@testing-library/react';
+import { describe, it, expect } from 'vitest';
 import { RMWCProvider } from './';
 import { Button } from '@rmwc/button';
 import { Icon } from '@rmwc/icon';

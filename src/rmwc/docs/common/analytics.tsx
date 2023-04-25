@@ -10,7 +10,7 @@ export const Analytics = () => {
   const location = useLocation();
 
   React.useEffect(() => {
-    ReactGA.initialize(process.env.REACT_APP_GOOGLE_ANALYTICS_ID as string);
+    ReactGA.initialize(process.env.VITE_GOOGLE_ANALYTICS_ID as string);
     doPageView(location);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

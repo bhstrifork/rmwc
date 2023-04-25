@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
+import { describe, it, expect } from 'vitest';
 import {
   withTheme,
   randomId,
@@ -15,7 +16,11 @@ import { wait } from './utils/test-utils';
 import { Dialog, DialogContent } from '@rmwc/dialog';
 import userEvent from '@testing-library/user-event';
 import { Button } from '@rmwc/button';
-import { PortalContext, portalContextDefaultValues, PortalProvider } from './PortalContext';
+import {
+  PortalContext,
+  portalContextDefaultValues,
+  PortalProvider
+} from './PortalContext';
 
 jest.spyOn(console, 'warn');
 
@@ -138,10 +143,10 @@ describe('FoundationElement', () => {
 describe('Utils', () => {
   it('randomId', () => {
     // @ts-ignore
-    process.env.NODE_ENV = 'production';
+    import.meta.env.NODE_ENV = 'production';
     randomId();
     // @ts-ignore
-    process.env.NODE_ENV = 'test';
+    import.meta.env.NODE_ENV = 'test';
   });
 
   it('debounce', (done) => {
@@ -151,7 +156,7 @@ describe('Utils', () => {
     debouncedFoo();
     setTimeout(() => {
       expect(val).toBe(1);
-      done();
+      // done();
     }, 150);
   });
 

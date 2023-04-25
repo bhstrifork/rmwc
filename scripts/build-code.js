@@ -1,8 +1,12 @@
 process.env.NODE_ENV = process.env.NODE_ENV || 'production';
 
-const getPackageDirs = require('./get-package-dirs');
-const path = require('path');
-const { exec, execSync } = require('child_process');
+import getPackageDirs from './get-package-dirs.js';
+import path from 'path';
+import { exec, execSync } from 'child_process';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const root = path.resolve(__filename, '../../');
 
 console.log('Starting build...');
 
@@ -11,7 +15,7 @@ const copyFile = (inputFile, outputFile) => {
   exec(`cp -R ${inputFile} ${outputFile}`);
 };
 
-const root = path.resolve(__dirname, '../');
+// const root = path.resolve(import.meta.url, '../');
 
 execSync(
   `npx tsc --project ${root}/tsconfig-build.json --target es5 --module CommonJS`,

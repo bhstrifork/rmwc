@@ -18,14 +18,12 @@ const renderApp = (Component: React.ComponentType<any>) => {
   );
 };
 
-// @ts-ignore
-if (module.hot) {
-  // @ts-ignore
-  module.hot.accept(['./views/app'], () => renderApp(App));
-}
+// if (module.hot) {
+//   module.hot.accept(['./views/app'], () => renderApp(App));
+// }
 
 const init = () => {
-  renderApp(App);
+  return renderApp(App);
 };
 
 export default init;

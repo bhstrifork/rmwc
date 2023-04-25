@@ -5,22 +5,22 @@ process.env.NODE_ENV = 'production';
 // Makes the script crash on unhandled rejections instead of silently
 // ignoring them. In the future, promise rejections that are not handled will
 // terminate the Node.js process with a non-zero exit code.
-process.on('unhandledRejection', err => {
+process.on('unhandledRejection', (err) => {
   throw err;
 });
 
 // Ensure environment variables are read.
-require('react-scripts/config/env');
+import 'react-scripts/config/env';
 
-const path = require('path');
-const chalk = require('chalk');
-const fs = require('fs-extra');
-const webpack = require('webpack');
-const configFactory = require('../config/webpack.config.lib');
-const paths = require('react-scripts/config/paths');
-const formatWebpackMessages = require('react-dev-utils/formatWebpackMessages');
-const FileSizeReporter = require('react-dev-utils/FileSizeReporter');
-const printBuildError = require('react-dev-utils/printBuildError');
+import path from 'path';
+import chalk from 'chalk';
+import fs from 'fs-extra';
+import webpack from 'webpack';
+import configFactory from '../config/webpack.config.lib';
+import paths from 'react-scripts/config/paths';
+import formatWebpackMessages from 'react-dev-utils/formatWebpackMessages';
+import FileSizeReporter from 'react-dev-utils/FileSizeReporter';
+import printBuildError from 'react-dev-utils/printBuildError';
 
 const measureFileSizesBeforeBuild =
   FileSizeReporter.measureFileSizesBeforeBuild;
@@ -42,7 +42,7 @@ fs.emptyDirSync(appLibBuild);
 // First, read the current file sizes in build directory.
 // This lets us display how much they changed later.
 measureFileSizesBeforeBuild(appLibBuild)
-  .then(previousFileSizes => {
+  .then((previousFileSizes) => {
     // Start the webpack build
     return build(previousFileSizes);
   })
@@ -77,7 +77,7 @@ measureFileSizesBeforeBuild(appLibBuild)
 
       console.log();
     },
-    err => {
+    (err) => {
       console.log(chalk.red('Failed to compile.\n'));
       printBuildError(err);
       process.exit(1);

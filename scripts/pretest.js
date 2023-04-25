@@ -1,5 +1,5 @@
-const fs = require('fs');
-const childProcess = require('child_process');
+import fs from 'fs';
+import childProcess from 'child_process';
 
 ['16.12.x', '17.0.x', '18.0.x'].forEach((version) => {
   if (!fs.existsSync(`react-versions/react-${version}`)) {

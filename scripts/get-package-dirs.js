@@ -1,7 +1,9 @@
-const { readdirSync, statSync } = require('fs');
-const { join } = require('path');
+import { readdirSync, statSync } from 'fs';
+import { join } from 'path';
 
-module.exports = () =>
+const getPackageDirs = () =>
   readdirSync('./src').filter(
-    f => f !== '@types' && statSync(join('./src', f)).isDirectory()
+    (f) => f !== '@types' && statSync(join('./src', f)).isDirectory()
   );
+
+export default getPackageDirs;

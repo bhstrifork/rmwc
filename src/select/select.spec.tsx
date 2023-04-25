@@ -1,6 +1,7 @@
 import React from 'react';
 import { Select } from './';
 import { render, act, fireEvent, screen } from '@testing-library/react';
+import { describe, it, expect } from 'vitest';
 
 test('renders learn react link', (done) => {
   const onChange = jest.fn();

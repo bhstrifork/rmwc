@@ -1,4 +1,4 @@
-const resolver = require('jest-pnp-resolver');
+import resolver from 'jest-pnp-resolver';
 const ReactTestVersion = process.env.REACT_TEST_VERSION;
 
 module.exports = (moduleName, options) => {

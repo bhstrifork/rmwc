@@ -1,25 +1,30 @@
-const React = require('react');
-const { renderToStaticMarkup } = require('react-dom/server');
-const path = require('path');
-const root = path.resolve(__dirname, '../');
-const moduleAlias = require('module-alias');
+import React from 'react';
+import { renderToStaticMarkup } from 'react-dom/server.js';
+import path from 'path';
+import moduleAlias from 'module-alias';
+
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const root = path.resolve(__filename, '../../');
+
 moduleAlias.addAlias('@rmwc', root + '/build/dist');
 moduleAlias.addAlias('@doc-utils', root + '/build/dist/doc-utils-markdown');
 
-const { execSync } = require('child_process');
-const fs = require('fs');
-const getChangedPackages = require('./get-changed-packages');
+import { execSync } from 'child_process';
+import fs from 'fs';
+import getChangedPackages from './get-changed-packages.js';
 
 const getMarkdown = (packageName) => {
   const readmeFiles = fs
     .readdirSync(path.resolve('build', 'dist', packageName))
     .filter((fName) => fName.startsWith('readme') && fName.endsWith('.js'));
 
-  const promises = readmeFiles.map((fName) => {
+  const promises = readmeFiles.map(async (fName) => {
     const docPath = path.resolve('build', 'dist', packageName, fName);
-    const fileOutputName = path.basename(fName, '.js').toUpperCase() + '.md';
+    const fileOutputName = path.basename(fName, '.cjs').toUpperCase() + '.md';
     const outputPath = path.resolve('src', packageName, fileOutputName);
-    const { default: Component } = require(docPath);
+    const { default: Component } = await import(docPath);
     const content = renderToStaticMarkup(React.createElement(Component))
       .replace(/&gt;/g, '>')
       .replace(/&lt;/g, '<')

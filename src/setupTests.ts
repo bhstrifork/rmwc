@@ -2,6 +2,12 @@ import React from 'react';
 // @ts-ignore
 import rmwcTestPolyfill from './base/test-polyfill';
 import '@testing-library/jest-dom/extend-expect';
+import { beforeAll, expect, afterEach } from 'vitest';
+import { cleanup } from '@testing-library/react';
+import matchers from '@testing-library/jest-dom/matchers';
+
+// extends Vitest's expect method with methods from react-testing-library
+expect.extend(matchers);
 
 rmwcTestPolyfill();
 
@@ -19,4 +25,8 @@ beforeAll(() => {
       consoleError(...args);
     }
   });
+});
+
+afterEach(() => {
+  cleanup();
 });

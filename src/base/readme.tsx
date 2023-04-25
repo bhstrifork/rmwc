@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Docs, DocsExample, DocsP, DocsSubtitle } from '@doc-utils';
+import { Docs, DocsExample, DocsP, DocsSubtitle } from '../doc-utils';
 import examples from './generated-examples.json';
 
 import { Portal, PortalProvider } from '.';

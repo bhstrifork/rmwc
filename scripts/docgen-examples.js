@@ -1,6 +1,6 @@
-const path = require('path');
-const fs = require('fs');
-const getAllPackages = require('./get-all-packages');
+import path from 'path';
+import fs from 'fs';
+import getAllPackages from './get-all-packages.js';
 
 const genDocExample = (packageName) => {
   const readmeFiles = fs
