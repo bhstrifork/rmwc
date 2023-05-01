@@ -1,6 +1,87 @@
 {
   "npm": {},
   "typescript": {
+    "Tooltip": {
+      "documentation": {
+        "contents": [
+          "<p>A Tooltip component for displaying informative popover information.</p>\n"
+        ],
+        "contentsRaw": "A Tooltip component for displaying informative popover information.",
+        "metadata": {}
+      },
+      "fileName": "src/tooltip/index.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Tooltip",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/tooltip/index.tsx#L41",
+      "signatures": [
+        {
+          "documentation": {
+            "contents": [
+              "<p>A Tooltip component for displaying informative popover information.</p>\n"
+            ],
+            "contentsRaw": "A Tooltip component for displaying informative popover information.",
+            "metadata": {}
+          },
+          "fileName": "src/tooltip/index.tsx",
+          "kind": "signature",
+          "name": "Tooltip",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/tooltip/index.tsx#L41",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "__namedParameters",
+              "type": ""
+            }
+          ],
+          "returnType": "Element<>",
+          "type": "(__namedParameters: ) => Element<>"
+        }
+      ]
+    },
+    "Readme": {
+      "fileName": "src/tooltip/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/tooltip/readme.tsx#L13",
+      "signatures": [
+        {
+          "fileName": "src/tooltip/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/tooltip/readme.tsx#L13",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "TooltipProps": {
       "documentation": {
         "contents": [
@@ -11,7 +92,6 @@
       },
       "fileName": "src/tooltip/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +115,6 @@
           },
           "fileName": "src/tooltip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -59,7 +138,6 @@
           },
           "fileName": "src/tooltip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -83,7 +161,6 @@
           },
           "fileName": "src/tooltip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -107,7 +184,6 @@
           },
           "fileName": "src/tooltip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -131,7 +207,6 @@
           },
           "fileName": "src/tooltip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -155,7 +230,6 @@
           },
           "fileName": "src/tooltip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -179,7 +253,6 @@
           },
           "fileName": "src/tooltip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -203,7 +276,6 @@
           },
           "fileName": "src/tooltip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -227,7 +299,6 @@
           },
           "fileName": "src/tooltip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -246,7 +317,6 @@
     "TooltipActivationT": {
       "fileName": "src/tooltip/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -263,7 +333,6 @@
     "TooltipAlignT": {
       "fileName": "src/tooltip/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,

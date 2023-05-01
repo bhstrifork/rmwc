@@ -1,6 +1,32 @@
 {
   "npm": {},
   "typescript": {
+    "Readme": {
+      "fileName": "src/card/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/card/readme.tsx#L22",
+      "signatures": [
+        {
+          "fileName": "src/card/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/card/readme.tsx#L22",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "CardProps": {
       "documentation": {
         "contents": [
@@ -11,7 +37,6 @@
       },
       "fileName": "src/card/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +60,6 @@
           },
           "fileName": "src/card/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -61,7 +85,6 @@
       },
       "fileName": "src/card/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -85,7 +108,6 @@
           },
           "fileName": "src/card/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -109,7 +131,6 @@
           },
           "fileName": "src/card/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -135,7 +156,6 @@
       },
       "fileName": "src/card/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -160,7 +180,6 @@
       },
       "fileName": "src/card/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -185,7 +204,6 @@
       },
       "fileName": "src/card/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -209,7 +227,6 @@
           },
           "fileName": "src/card/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -235,7 +252,6 @@
       },
       "fileName": "src/card/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -260,7 +276,6 @@
       },
       "fileName": "src/card/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -285,7 +300,6 @@
       },
       "fileName": "src/card/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -313,7 +327,6 @@
       },
       "fileName": "src/card/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,

@@ -1,10 +1,50 @@
 {
   "npm": {},
   "typescript": {
+    "useLineRippleFoundation": {
+      "fileName": "src/line-ripple/foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useLineRippleFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/line-ripple/foundation.tsx#L7",
+      "signatures": [
+        {
+          "fileName": "src/line-ripple/foundation.tsx",
+          "kind": "signature",
+          "name": "useLineRippleFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/line-ripple/foundation.tsx#L7",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "LineRippleProps & HTMLProps<any>"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: LineRippleProps & HTMLProps<any>) => any"
+        }
+      ]
+    },
     "LineRippleProps": {
       "fileName": "src/line-ripple/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -21,7 +61,6 @@
         {
           "fileName": "src/line-ripple/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -38,7 +77,6 @@
         {
           "fileName": "src/line-ripple/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,

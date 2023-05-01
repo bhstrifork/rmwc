@@ -1,6 +1,73 @@
 {
   "npm": {},
   "typescript": {
+    "useTopAppBarFoundation": {
+      "fileName": "src/top-app-bar/foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useTopAppBarFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/top-app-bar/foundation.tsx#L12",
+      "signatures": [
+        {
+          "fileName": "src/top-app-bar/foundation.tsx",
+          "kind": "signature",
+          "name": "useTopAppBarFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/top-app-bar/foundation.tsx#L12",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "TopAppBarProps & HTMLProps<any>"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: TopAppBarProps & HTMLProps<any>) => any"
+        }
+      ]
+    },
+    "Readme": {
+      "fileName": "src/top-app-bar/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/top-app-bar/readme.tsx#L18",
+      "signatures": [
+        {
+          "fileName": "src/top-app-bar/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/top-app-bar/readme.tsx#L18",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "TopAppBarProps": {
       "documentation": {
         "contents": [
@@ -11,7 +78,6 @@
       },
       "fileName": "src/top-app-bar/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +101,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -59,7 +124,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -83,7 +147,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -107,7 +170,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -131,7 +193,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -155,7 +216,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -179,7 +239,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -203,7 +262,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -229,7 +287,6 @@
       },
       "fileName": "src/top-app-bar/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -256,7 +313,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -280,7 +336,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -305,7 +360,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -329,7 +383,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -354,7 +407,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -379,7 +431,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -403,7 +454,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -428,7 +478,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -453,7 +502,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -478,7 +526,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -503,7 +550,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -528,7 +574,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -552,7 +597,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -578,7 +622,6 @@
       },
       "fileName": "src/top-app-bar/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -603,7 +646,6 @@
       },
       "fileName": "src/top-app-bar/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -627,7 +669,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -651,7 +692,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -677,7 +717,6 @@
       },
       "fileName": "src/top-app-bar/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -705,7 +744,6 @@
       },
       "fileName": "src/top-app-bar/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -733,7 +771,6 @@
       },
       "fileName": "src/top-app-bar/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -758,7 +795,6 @@
       },
       "fileName": "src/top-app-bar/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -782,7 +818,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -806,7 +841,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -830,7 +864,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -854,7 +887,6 @@
           },
           "fileName": "src/top-app-bar/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -880,7 +912,6 @@
       },
       "fileName": "src/top-app-bar/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -892,7 +923,7 @@
       "kind": "type alias",
       "name": "TopAppBarOnNavEventT",
       "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/top-app-bar/index.tsx#L12",
-      "type": "RMWC.CustomEventT<{}>"
+      "type": "RMWC.CustomEventT<>"
     }
   }
 }

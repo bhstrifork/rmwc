@@ -1,6 +1,113 @@
 {
   "npm": {},
   "typescript": {
+    "useProviderContext": {
+      "fileName": "src/provider/index.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useProviderContext",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/provider/index.tsx#L82",
+      "signatures": [
+        {
+          "fileName": "src/provider/index.tsx",
+          "kind": "signature",
+          "name": "useProviderContext",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/provider/index.tsx#L82",
+          "parameters": [],
+          "returnType": "RMWCProviderProps",
+          "type": "() => RMWCProviderProps"
+        }
+      ]
+    },
+    "RMWCProvider": {
+      "documentation": {
+        "contents": [
+          "<p>A provider for setting global options in RMWC.</p>\n"
+        ],
+        "contentsRaw": "A provider for setting global options in RMWC.",
+        "metadata": {}
+      },
+      "fileName": "src/provider/index.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "RMWCProvider",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/provider/index.tsx#L85",
+      "signatures": [
+        {
+          "documentation": {
+            "contents": [
+              "<p>A provider for setting global options in RMWC.</p>\n"
+            ],
+            "contentsRaw": "A provider for setting global options in RMWC.",
+            "metadata": {}
+          },
+          "fileName": "src/provider/index.tsx",
+          "kind": "signature",
+          "name": "RMWCProvider",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/provider/index.tsx#L85",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "__namedParameters",
+              "type": ""
+            }
+          ],
+          "returnType": "Element<>",
+          "type": "(__namedParameters: ) => Element<>"
+        }
+      ]
+    },
+    "Readme": {
+      "fileName": "src/provider/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/provider/readme.tsx#L9",
+      "signatures": [
+        {
+          "fileName": "src/provider/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/provider/readme.tsx#L9",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "RMWCProviderProps": {
       "documentation": {
         "contents": [
@@ -11,7 +118,6 @@
       },
       "fileName": "src/provider/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +141,6 @@
           },
           "fileName": "src/provider/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -59,7 +164,6 @@
           },
           "fileName": "src/provider/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -83,7 +187,6 @@
           },
           "fileName": "src/provider/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -107,7 +210,6 @@
           },
           "fileName": "src/provider/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -131,7 +233,6 @@
           },
           "fileName": "src/provider/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,

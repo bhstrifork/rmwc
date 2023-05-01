@@ -1,10 +1,50 @@
 {
   "npm": {},
   "typescript": {
+    "useNotchedOutlineFoundation": {
+      "fileName": "src/notched-outline/foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useNotchedOutlineFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/notched-outline/foundation.tsx#L6",
+      "signatures": [
+        {
+          "fileName": "src/notched-outline/foundation.tsx",
+          "kind": "signature",
+          "name": "useNotchedOutlineFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/notched-outline/foundation.tsx#L6",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "NotchedOutlineProps & HTMLProps<any>"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: NotchedOutlineProps & HTMLProps<any>) => any"
+        }
+      ]
+    },
     "NotchedOutlineProps": {
       "fileName": "src/notched-outline/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -21,7 +61,6 @@
         {
           "fileName": "src/notched-outline/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,

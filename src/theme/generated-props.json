@@ -1,6 +1,155 @@
 {
   "npm": {},
   "typescript": {
+    "Readme": {
+      "fileName": "src/theme/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/theme/readme.tsx#L12",
+      "signatures": [
+        {
+          "fileName": "src/theme/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/theme/readme.tsx#L12",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
+    "getRgb": {
+      "fileName": "src/theme/utils.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "getRgb",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/theme/utils.tsx#L183",
+      "signatures": [
+        {
+          "fileName": "src/theme/utils.tsx",
+          "kind": "signature",
+          "name": "getRgb",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/theme/utils.tsx#L183",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "color",
+              "type": "string"
+            }
+          ],
+          "returnType": "",
+          "type": "(color: string) => "
+        }
+      ]
+    },
+    "isDark": {
+      "fileName": "src/theme/utils.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "isDark",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/theme/utils.tsx#L188",
+      "signatures": [
+        {
+          "fileName": "src/theme/utils.tsx",
+          "kind": "signature",
+          "name": "isDark",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/theme/utils.tsx#L188",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "color",
+              "type": "string"
+            }
+          ],
+          "returnType": "boolean",
+          "type": "(color: string) => boolean"
+        }
+      ]
+    },
+    "getAutoColorsForTheme": {
+      "fileName": "src/theme/utils.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "getAutoColorsForTheme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/theme/utils.tsx#L219",
+      "signatures": [
+        {
+          "fileName": "src/theme/utils.tsx",
+          "kind": "signature",
+          "name": "getAutoColorsForTheme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/theme/utils.tsx#L219",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "colors",
+              "type": "{ [key: string]: string }"
+            }
+          ],
+          "returnType": "",
+          "type": "(colors: { [key: string]: string }) => "
+        }
+      ]
+    },
     "ThemeProps": {
       "documentation": {
         "contents": [
@@ -11,7 +160,6 @@
       },
       "fileName": "src/theme/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +183,6 @@
           },
           "fileName": "src/theme/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -59,7 +206,6 @@
           },
           "fileName": "src/theme/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -85,7 +231,6 @@
       },
       "fileName": "src/theme/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -109,7 +254,6 @@
           },
           "fileName": "src/theme/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -133,7 +277,6 @@
           },
           "fileName": "src/theme/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -157,7 +300,6 @@
           },
           "fileName": "src/theme/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -181,7 +323,6 @@
           },
           "fileName": "src/theme/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,

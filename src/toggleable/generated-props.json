@@ -1,10 +1,50 @@
 {
   "npm": {},
   "typescript": {
+    "useToggleFoundation": {
+      "fileName": "src/toggleable/index.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useToggleFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/toggleable/index.tsx#L30",
+      "signatures": [
+        {
+          "fileName": "src/toggleable/index.tsx",
+          "kind": "signature",
+          "name": "useToggleFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/toggleable/index.tsx#L30",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "ToggleableProps<Foundation> & ToggleHTMLProps"
+            }
+          ],
+          "returnType": "",
+          "type": "(props: ToggleableProps<Foundation> & ToggleHTMLProps) => "
+        }
+      ]
+    },
     "ToggleableProps": {
       "fileName": "src/toggleable/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -28,7 +68,6 @@
           },
           "fileName": "src/toggleable/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -52,7 +91,6 @@
           },
           "fileName": "src/toggleable/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -76,7 +114,6 @@
           },
           "fileName": "src/toggleable/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -100,7 +137,6 @@
           },
           "fileName": "src/toggleable/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -124,7 +160,6 @@
           },
           "fileName": "src/toggleable/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -148,7 +183,6 @@
           },
           "fileName": "src/toggleable/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -172,7 +206,6 @@
           },
           "fileName": "src/toggleable/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -196,7 +229,6 @@
           },
           "fileName": "src/toggleable/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -215,7 +247,6 @@
     "ToggleHTMLProps": {
       "fileName": "src/toggleable/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,

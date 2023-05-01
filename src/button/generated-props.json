@@ -1,6 +1,32 @@
 {
   "npm": {},
   "typescript": {
+    "Readme": {
+      "fileName": "src/button/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/button/readme.tsx#L10",
+      "signatures": [
+        {
+          "fileName": "src/button/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/button/readme.tsx#L10",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "ButtonProps": {
       "documentation": {
         "contents": [
@@ -11,7 +37,6 @@
       },
       "fileName": "src/button/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -38,7 +63,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -62,7 +86,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -86,7 +109,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -110,7 +132,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -134,7 +155,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -158,7 +178,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -182,7 +201,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -206,7 +224,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -230,7 +247,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -254,7 +270,6 @@
           },
           "fileName": "src/button/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -273,7 +288,6 @@
     "ButtonHTMLProps": {
       "fileName": "src/button/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,

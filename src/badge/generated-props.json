@@ -1,6 +1,32 @@
 {
   "npm": {},
   "typescript": {
+    "Readme": {
+      "fileName": "src/badge/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/badge/readme.tsx#L12",
+      "signatures": [
+        {
+          "fileName": "src/badge/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/badge/readme.tsx#L12",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "BadgeProps": {
       "documentation": {
         "contents": [
@@ -11,7 +37,6 @@
       },
       "fileName": "src/badge/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +60,6 @@
           },
           "fileName": "src/badge/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -59,7 +83,6 @@
           },
           "fileName": "src/badge/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -83,7 +106,6 @@
           },
           "fileName": "src/badge/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -107,7 +129,6 @@
           },
           "fileName": "src/badge/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -133,7 +154,6 @@
       },
       "fileName": "src/badge/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,

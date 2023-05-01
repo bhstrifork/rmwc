@@ -1,6 +1,114 @@
 {
   "npm": {},
   "typescript": {
+    "useChipFoundation": {
+      "fileName": "src/chip/foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useChipFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/chip/foundation.tsx#L11",
+      "signatures": [
+        {
+          "fileName": "src/chip/foundation.tsx",
+          "kind": "signature",
+          "name": "useChipFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/chip/foundation.tsx#L11",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "ChipProps & ChipHTMLProps"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: ChipProps & ChipHTMLProps) => any"
+        }
+      ]
+    },
+    "Readme": {
+      "fileName": "src/chip/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/chip/readme.tsx#L9",
+      "signatures": [
+        {
+          "fileName": "src/chip/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/chip/readme.tsx#L9",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
+    "useTrailingActionFoundation": {
+      "fileName": "src/chip/trailing-action/foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useTrailingActionFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/chip/trailing-action/foundation.tsx#L7",
+      "signatures": [
+        {
+          "fileName": "src/chip/trailing-action/foundation.tsx",
+          "kind": "signature",
+          "name": "useTrailingActionFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/chip/trailing-action/foundation.tsx#L7",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "TrailingActionProps"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: TrailingActionProps) => any"
+        }
+      ]
+    },
     "ChipProps": {
       "documentation": {
         "contents": [
@@ -11,7 +119,6 @@
       },
       "fileName": "src/chip/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +142,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -59,7 +165,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -83,7 +188,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -107,7 +211,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -131,7 +234,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -155,7 +257,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -179,7 +280,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -203,7 +303,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -227,7 +326,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -251,7 +349,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -275,7 +372,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -299,7 +395,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -325,7 +420,6 @@
       },
       "fileName": "src/chip/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -349,7 +443,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -373,7 +466,6 @@
           },
           "fileName": "src/chip/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -399,7 +491,6 @@
       },
       "fileName": "src/chip/trailing-action/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -416,7 +507,6 @@
         {
           "fileName": "src/chip/trailing-action/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -435,7 +525,6 @@
     "TrailingActionProps": {
       "fileName": "src/chip/trailing-action/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -452,7 +541,6 @@
         {
           "fileName": "src/chip/trailing-action/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -469,7 +557,6 @@
         {
           "fileName": "src/chip/trailing-action/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -486,7 +573,6 @@
         {
           "fileName": "src/chip/trailing-action/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -512,7 +598,6 @@
       },
       "fileName": "src/chip/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -529,7 +614,6 @@
     "ChipOnTrailingIconInteractionEventT": {
       "fileName": "src/chip/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -546,7 +630,6 @@
     "ChipOnRemoveEventT": {
       "fileName": "src/chip/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -563,7 +646,6 @@
     "ChipHTMLProps": {
       "fileName": "src/chip/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,

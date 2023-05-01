@@ -1,6 +1,73 @@
 {
   "npm": {},
   "typescript": {
+    "useLinearProgressFoundation": {
+      "fileName": "src/linear-progress/foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useLinearProgressFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/linear-progress/foundation.tsx#L6",
+      "signatures": [
+        {
+          "fileName": "src/linear-progress/foundation.tsx",
+          "kind": "signature",
+          "name": "useLinearProgressFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/linear-progress/foundation.tsx#L6",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "LinearProgressProps"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: LinearProgressProps) => any"
+        }
+      ]
+    },
+    "Readme": {
+      "fileName": "src/linear-progress/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/linear-progress/readme.tsx#L9",
+      "signatures": [
+        {
+          "fileName": "src/linear-progress/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/linear-progress/readme.tsx#L9",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "LinearProgressProps": {
       "documentation": {
         "contents": [
@@ -11,7 +78,6 @@
       },
       "fileName": "src/linear-progress/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +101,6 @@
           },
           "fileName": "src/linear-progress/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -59,7 +124,6 @@
           },
           "fileName": "src/linear-progress/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -83,7 +147,6 @@
           },
           "fileName": "src/linear-progress/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -107,7 +170,6 @@
           },
           "fileName": "src/linear-progress/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -131,7 +193,6 @@
           },
           "fileName": "src/linear-progress/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,

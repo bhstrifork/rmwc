@@ -1,10 +1,50 @@
 {
   "npm": {},
   "typescript": {
+    "useFloatingLabelFoundation": {
+      "fileName": "src/floating-label/foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useFloatingLabelFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/floating-label/foundation.tsx#L11",
+      "signatures": [
+        {
+          "fileName": "src/floating-label/foundation.tsx",
+          "kind": "signature",
+          "name": "useFloatingLabelFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/floating-label/foundation.tsx#L11",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "FloatingLabelProps & HTMLProps<any>"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: FloatingLabelProps & HTMLProps<any>) => any"
+        }
+      ]
+    },
     "FloatingLabelProps": {
       "fileName": "src/floating-label/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -21,7 +61,6 @@
         {
           "fileName": "src/floating-label/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -38,7 +77,6 @@
         {
           "fileName": "src/floating-label/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -57,7 +95,6 @@
     "FloatingLabelApi": {
       "fileName": "src/floating-label/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -74,7 +111,6 @@
         {
           "fileName": "src/floating-label/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -91,7 +127,6 @@
         {
           "fileName": "src/floating-label/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,

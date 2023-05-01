@@ -1,6 +1,32 @@
 {
   "npm": {},
   "typescript": {
+    "Readme": {
+      "fileName": "src/typography/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/typography/readme.tsx#L10",
+      "signatures": [
+        {
+          "fileName": "src/typography/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/typography/readme.tsx#L10",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "TypographyProps": {
       "documentation": {
         "contents": [
@@ -11,7 +37,6 @@
       },
       "fileName": "src/typography/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +60,6 @@
           },
           "fileName": "src/typography/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -54,7 +78,6 @@
     "TypographyT": {
       "fileName": "src/typography/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -71,7 +94,6 @@
     "TypographyHTMLProps": {
       "fileName": "src/typography/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,

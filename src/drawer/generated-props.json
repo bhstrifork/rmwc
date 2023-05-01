@@ -1,6 +1,32 @@
 {
   "npm": {},
   "typescript": {
+    "Readme": {
+      "fileName": "src/drawer/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/drawer/readme.tsx#L20",
+      "signatures": [
+        {
+          "fileName": "src/drawer/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/drawer/readme.tsx#L20",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "DrawerProps": {
       "documentation": {
         "contents": [
@@ -11,7 +37,6 @@
       },
       "fileName": "src/drawer/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +60,6 @@
           },
           "fileName": "src/drawer/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -59,7 +83,6 @@
           },
           "fileName": "src/drawer/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -83,7 +106,6 @@
           },
           "fileName": "src/drawer/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -107,7 +129,6 @@
           },
           "fileName": "src/drawer/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -131,7 +152,6 @@
           },
           "fileName": "src/drawer/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -155,7 +175,6 @@
           },
           "fileName": "src/drawer/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -181,7 +200,6 @@
       },
       "fileName": "src/drawer/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -206,7 +224,6 @@
       },
       "fileName": "src/drawer/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -231,7 +248,6 @@
       },
       "fileName": "src/drawer/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -256,7 +272,6 @@
       },
       "fileName": "src/drawer/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -281,7 +296,6 @@
       },
       "fileName": "src/drawer/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -306,7 +320,6 @@
       },
       "fileName": "src/drawer/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -318,12 +331,11 @@
       "kind": "type alias",
       "name": "DrawerOnCloseEventT",
       "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/drawer/index.tsx#L17",
-      "type": "RMWC.CustomEventT<{}>"
+      "type": "RMWC.CustomEventT<>"
     },
     "DrawerOnOpenEventT": {
       "fileName": "src/drawer/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -335,7 +347,7 @@
       "kind": "type alias",
       "name": "DrawerOnOpenEventT",
       "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/drawer/index.tsx#L18",
-      "type": "RMWC.CustomEventT<{}>"
+      "type": "RMWC.CustomEventT<>"
     }
   }
 }

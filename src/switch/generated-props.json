@@ -1,6 +1,73 @@
 {
   "npm": {},
   "typescript": {
+    "useSwitchFoundation": {
+      "fileName": "src/switch/foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useSwitchFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/switch/foundation.tsx#L10",
+      "signatures": [
+        {
+          "fileName": "src/switch/foundation.tsx",
+          "kind": "signature",
+          "name": "useSwitchFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/switch/foundation.tsx#L10",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "SwitchProps & SwitchHTMLProps"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: SwitchProps & SwitchHTMLProps) => any"
+        }
+      ]
+    },
+    "Readme": {
+      "fileName": "src/switch/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/switch/readme.tsx#L9",
+      "signatures": [
+        {
+          "fileName": "src/switch/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/switch/readme.tsx#L9",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "SwitchProps": {
       "documentation": {
         "contents": [
@@ -11,7 +78,6 @@
       },
       "fileName": "src/switch/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -33,7 +99,6 @@
     "SwitchHTMLProps": {
       "fileName": "src/switch/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,

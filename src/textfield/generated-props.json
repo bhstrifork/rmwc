@@ -1,6 +1,155 @@
 {
   "npm": {},
   "typescript": {
+    "Readme": {
+      "fileName": "src/textfield/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/textfield/readme.tsx#L9",
+      "signatures": [
+        {
+          "fileName": "src/textfield/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/textfield/readme.tsx#L9",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
+    "useTextFieldCharacterCountFoundation": {
+      "fileName": "src/textfield/textfield-character-count-foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useTextFieldCharacterCountFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/textfield/textfield-character-count-foundation.tsx#L14",
+      "signatures": [
+        {
+          "fileName": "src/textfield/textfield-character-count-foundation.tsx",
+          "kind": "signature",
+          "name": "useTextFieldCharacterCountFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/textfield/textfield-character-count-foundation.tsx#L14",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "TextFieldCharacterCountProps"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: TextFieldCharacterCountProps) => any"
+        }
+      ]
+    },
+    "useTextFieldFoundation": {
+      "fileName": "src/textfield/textfield-foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useTextFieldFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/textfield/textfield-foundation.tsx#L12",
+      "signatures": [
+        {
+          "fileName": "src/textfield/textfield-foundation.tsx",
+          "kind": "signature",
+          "name": "useTextFieldFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/textfield/textfield-foundation.tsx#L12",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "TextFieldProps"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: TextFieldProps) => any"
+        }
+      ]
+    },
+    "useTextFieldIconFoundation": {
+      "fileName": "src/textfield/textfield-icon-foundation.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "useTextFieldIconFoundation",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/textfield/textfield-icon-foundation.tsx#L9",
+      "signatures": [
+        {
+          "fileName": "src/textfield/textfield-icon-foundation.tsx",
+          "kind": "signature",
+          "name": "useTextFieldIconFoundation",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/textfield/textfield-icon-foundation.tsx#L9",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "props",
+              "type": "IconProps & HTMLProps<any>"
+            }
+          ],
+          "returnType": "any",
+          "type": "(props: IconProps & HTMLProps<any>) => any"
+        }
+      ]
+    },
     "TextFieldProps": {
       "documentation": {
         "contents": [
@@ -11,7 +160,6 @@
       },
       "fileName": "src/textfield/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -38,7 +186,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -62,7 +209,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -86,7 +232,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -110,7 +255,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -134,7 +278,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -158,7 +301,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -182,7 +324,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -206,7 +347,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -230,7 +370,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -254,7 +393,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -278,7 +416,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -302,7 +439,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -326,7 +462,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -350,7 +485,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -374,7 +508,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -398,7 +531,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -422,7 +554,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -446,7 +577,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -470,7 +600,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -494,7 +623,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -520,7 +648,6 @@
       },
       "fileName": "src/textfield/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -544,7 +671,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -568,7 +694,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -592,7 +717,6 @@
           },
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -618,7 +742,6 @@
       },
       "fileName": "src/textfield/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -635,7 +758,6 @@
         {
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -661,7 +783,6 @@
       },
       "fileName": "src/textfield/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -681,7 +802,6 @@
         {
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -698,7 +818,6 @@
         {
           "fileName": "src/textfield/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -717,7 +836,6 @@
     "TextFieldCharacterCountApi": {
       "fileName": "src/textfield/textfield-character-count-foundation.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -734,7 +852,6 @@
         {
           "fileName": "src/textfield/textfield-character-count-foundation.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": false,
             "isPrivate": false,
@@ -753,7 +870,6 @@
     "TextFieldCharacterCountProps": {
       "fileName": "src/textfield/textfield-character-count-foundation.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -770,7 +886,6 @@
         {
           "fileName": "src/textfield/textfield-character-count-foundation.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -789,7 +904,6 @@
     "TextFieldHTMLProps": {
       "fileName": "src/textfield/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,

@@ -1,6 +1,115 @@
 {
   "npm": {},
   "typescript": {
+    "getIconStrategy": {
+      "documentation": {
+        "contents": [
+          "<p>Get the actual icon strategy to use</p>\n"
+        ],
+        "contentsRaw": "Get the actual icon strategy to use",
+        "metadata": {}
+      },
+      "fileName": "src/icon/index.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "getIconStrategy",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/icon/index.tsx#L35",
+      "signatures": [
+        {
+          "documentation": {
+            "contents": [
+              "<p>Get the actual icon strategy to use</p>\n"
+            ],
+            "contentsRaw": "Get the actual icon strategy to use",
+            "metadata": {}
+          },
+          "fileName": "src/icon/index.tsx",
+          "kind": "signature",
+          "name": "getIconStrategy",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/icon/index.tsx#L35",
+          "parameters": [
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "content",
+              "type": "React.ReactNode"
+            },
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "strategy",
+              "type": "string | null"
+            },
+            {
+              "flags": {
+                "isExternal": false,
+                "isOptional": false,
+                "isPrivate": false,
+                "isProtected": false,
+                "isPublic": false,
+                "isRest": false,
+                "isStatic": false
+              },
+              "kind": "parameter",
+              "name": "providerStrategy",
+              "type": "string | null"
+            }
+          ],
+          "returnType": "any",
+          "type": "(content: React.ReactNode, strategy: string | null, providerStrategy: string | null) => any"
+        }
+      ]
+    },
+    "Readme": {
+      "fileName": "src/icon/readme.tsx",
+      "flags": {
+        "isExternal": false,
+        "isOptional": false,
+        "isPrivate": false,
+        "isProtected": false,
+        "isPublic": false,
+        "isRest": false,
+        "isStatic": false
+      },
+      "kind": "method",
+      "name": "Readme",
+      "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/icon/readme.tsx#L11",
+      "signatures": [
+        {
+          "fileName": "src/icon/readme.tsx",
+          "kind": "signature",
+          "name": "Readme",
+          "sourceUrl": "https://github.com/rmwc/rmwc/blob/master/src/icon/readme.tsx#L11",
+          "parameters": [],
+          "returnType": "Element<>",
+          "type": "() => Element<>"
+        }
+      ]
+    },
     "IconProps": {
       "documentation": {
         "contents": [
@@ -11,7 +120,6 @@
       },
       "fileName": "src/icon/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
@@ -35,7 +143,6 @@
           },
           "fileName": "src/icon/index.tsx",
           "flags": {
-            "isExported": true,
             "isExternal": false,
             "isOptional": true,
             "isPrivate": false,
@@ -54,7 +161,6 @@
     "IconHTMLProps": {
       "fileName": "src/icon/index.tsx",
       "flags": {
-        "isExported": true,
         "isExternal": false,
         "isOptional": false,
         "isPrivate": false,
